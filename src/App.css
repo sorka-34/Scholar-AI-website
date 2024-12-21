@@ -1,0 +1,69 @@
+/* App */
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hero .hero-text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+}
+.hero .hero-text h1{
+  font-size: 3rem;
+}
+.hero .hero-text p{
+  font-size: 1.5rem;
+}
+.hero img{
+  width: 30%;
+}
+
+.features-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+}
+.features-container .feature-icon{
+  margin-bottom: 0.75rem;
+  color: var(--accent-color);
+}
+
+/* Scholarship Card */
+.scholarships-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.scholarships-container .card h2{
+  font-size: 1.2rem;
+}
+
+.scholarships-container .card p{
+  text-align: left;
+}
+
+.open {
+  position: absolute;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+  width: fit-content;
+  top: 8px;
+  right: 8px;
+}
+
+.card .btn{
+  padding: 10px 15px;
+}
