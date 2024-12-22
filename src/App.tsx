@@ -23,32 +23,32 @@ const App: FC = () => {
         <section className='features'>
           <h2>Features</h2>
           <div className='features-container'>
-            <div className="card feature">
+            <div className="card card1 feature">
               <FaMagnifyingGlass size={40} className='feature-icon'/>
               <h3>Personalized Matches</h3>
               <p>Scholar uses AI to match you with the best scholarships.</p>
             </div>
-            <div className="card feature">
+            <div className="card card1 feature">
               <FaUniversity size={40} className='feature-icon'/>
               <h3>Comprehensive Database</h3>
               <p>Browse through hundreds of scholarships with accurate information</p>
             </div>
-            <div className="card feature">
+            <div className="card card1 feature">
               <FaRobot size={40} className='feature-icon'/>
               <h3>Application Assistant</h3>
               <p>Our specialized AI assistant will guide you through your application process</p>
             </div>
-            <div className="card feature">
+            <div className="card card1 feature">
               <FaPaperPlane size={40} className='feature-icon'/>
               <h3>Streamlined Application Process</h3>
               <p>Manage everything in one place for a hassle-free experience.</p>
             </div>
-            <div className="card feature">
+            <div className="card card1 feature">
               <FaChartLine size={40} className='feature-icon'/>
               <h3>Scholarship Insights</h3>
               <p>Gain valuable insights with curated tips and trends on winning scholarships.</p>
             </div>
-            <div className="card feature">
+            <div className="card card1 feature">
               <FaUsers size={40} className='feature-icon'/>
               <h3>Connect with the Community</h3>
               <p>Join a vibrant community of scholarship seekers.</p>

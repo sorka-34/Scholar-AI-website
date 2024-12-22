@@ -41,7 +41,7 @@ const ScholarshipCard: FC<ScholarshipCardProps> = (props) => {
 
 
     return(
-        <div className='card' >
+        <div className='card card2' >
             <h2>{props.title}</h2>
             <p>Country: {props.country}</p>
             <p>Funded by: {props.fundedBy}</p>
