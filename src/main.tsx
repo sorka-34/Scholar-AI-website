@@ -9,7 +9,7 @@ import Services from './components/Services.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/Scholar-AI-website/'>
       <Routes>
         <Route path='/' element={<App />} />
         <Route path='scholarships' element={<Scholarships />} />
