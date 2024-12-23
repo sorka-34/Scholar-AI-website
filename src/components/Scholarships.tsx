@@ -4,9 +4,10 @@ import Footer from './Footer'
 import ScholarshipCard  from './ScholarshipCard'
 import data from '../assets/scholarshipsData.json'
 
-const scholarshipsList: JSX.Element[] = data.map(scholarship => {
+const scholarshipsList: JSX.Element[] = data.map((scholarship, i) => {
     return(
         <ScholarshipCard 
+            key={i}
             title={scholarship.basic_info.title}
             funding={scholarship.basic_info.funding_type.type}
             country={scholarship.basic_info.host_countries.join(" ")}

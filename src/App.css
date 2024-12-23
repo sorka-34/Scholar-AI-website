@@ -18,7 +18,8 @@
   font-size: 1.5rem;
 }
 .hero img{
-  width: 30%;
+  width: 400px;
+  min-width: 300px;
 }
 
 .features-container{
@@ -66,4 +67,25 @@
 
 .card .btn{
   padding: 10px 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .hero{
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .hero .hero-text{
+    width: 100%;
+  }
+  .hero .hero-text h1{
+    font-size: 2.5rem;
+  }
+  .hero .hero-text .btn{
+    margin: auto;
+  }
+  .hero img{
+    margin-top: 100px;
+    width: 300px;
+  }
+
 }

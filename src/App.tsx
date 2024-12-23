@@ -4,7 +4,7 @@ import { FaChartLine, FaPaperPlane, FaRobot, FaUniversity, FaUsers } from 'react
 import { FaMagnifyingGlass } from 'react-icons/fa6';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import heroImg from "./assets/hero-img.png";
+import mascotImg from './assets/mascot.svg'
 
 const App: FC = () => {
   return (
@@ -17,7 +17,7 @@ const App: FC = () => {
             <p>Scholar simplifies your search for financial aid by providing a comprehensive and accurate catalog of scholarships, personalized scholarship matches, and powerful AI tools to streamline your application process. Join a community of achievers and unlock opportunities tailored just for you.</p>
             <button className="btn">Get Started</button>
           </div>
-          <img src={heroImg} alt="students image"/>
+          <img src={mascotImg} alt="students image"/>
         </section>
 
         <section className='features'>
