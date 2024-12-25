@@ -13,7 +13,9 @@ const scholarshipsList: JSX.Element[] = data.map((scholarship, i) => {
             country={scholarship.basic_info.host_countries.join(" ")}
             degree={scholarship.basic_info.degree_levels.join(" ")}
             deadline={scholarship.basic_info.application_timeline.closing_date}
-            fundedBy={scholarship.basic_info.funded_by.primary}
+            keyBenefits='Monthly Allowance'
+            requiredExams='IELETS/TOEFEL'
+            open='Opening Soon'
         />
     )
 })
