@@ -23,11 +23,11 @@ const ScholarshipCard: FC<ScholarshipCardProps> = (props) => {
               <span className='tag'>{props.degree}</span>
               <span className='tag'>{props.open}</span>
             </div>
-            <span><FaFlag /><p>Country: {props.country}</p></span>
-            <span><FaHandHoldingDollar /><p>Funding: {props.funding}</p></span>
-            <span><FaStar /><p>Key Benefits: {props.keyBenefits}</p></span>
-            <span><FaFileAlt /><p>Required Exams: {props.requiredExams}</p></span>
-            <span><FaCalendarAlt /><p>Deadline: {props.deadline}</p></span>
+            <span><FaFlag className='icon'/><p>Country: {props.country}</p></span>
+            <span><FaHandHoldingDollar className='icon'/><p>Funding: {props.funding}</p></span>
+            <span><FaStar className='icon'/><p>Key Benefits: {props.keyBenefits}</p></span>
+            <span><FaFileAlt className='icon'/><p>Required Exams: {props.requiredExams}</p></span>
+            <span><FaCalendarAlt className='icon'/><p>Deadline: {props.deadline}</p></span>
             <button className='btn'>Apply now</button>
         </div>
     )

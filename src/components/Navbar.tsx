@@ -21,9 +21,9 @@ const Navbar: FC = () => {
       </div>
 
       <ul className={`navbar-links ${isOpenMenu && "dropdown"}`}>
-        <li><NavLink to={'/scholarships'}><FaBook className='nav-icon'/><span>Scholarships</span></NavLink></li>
-        <li><NavLink to={'/services'}><FaHandsHelping className='nav-icon'/>Services</NavLink></li>
-        <li><NavLink to={'/profile'}><FaUser className='nav-icon'/>Profile</NavLink></li>
+        <li><NavLink to={'/scholarships'}><FaBook className='icon'/><span>Scholarships</span></NavLink></li>
+        <li><NavLink to={'/services'}><FaHandsHelping className='icon'/>Services</NavLink></li>
+        <li><NavLink to={'/profile'}><FaUser className='icon'/>Profile</NavLink></li>
       </ul>
 
       <div className={`humburger ${isOpenMenu && "open-menu"}`} onClick={toggleHumburger}>

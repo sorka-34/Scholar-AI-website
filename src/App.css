@@ -30,9 +30,12 @@
   width: 100%;
   max-width: 1000px;
 }
-.features-container .feature-icon{
-  margin-bottom: 0.75rem;
-  color: var(--accent-color);
+
+.features-container .feature{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
 }
 
 /* Scholarship Card */
@@ -49,10 +52,6 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-}
-
-.scholarships-container .card *{
-  margin-bottom: 0;
 }
 
 .scholarships-container .card h2{
